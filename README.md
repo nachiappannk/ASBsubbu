@@ -1,4 +1,4 @@
-# CREATING AND DEPLOYING AZURE FUNCTION THAT LISTENS TO AZURE SERVICE BUS QEUEUE
+# Creating And Deploying Azure Function That Listens to Azure Service Bus Queue
 
 ## Steps to create an Azure Function with ASBQ as trigger
 
