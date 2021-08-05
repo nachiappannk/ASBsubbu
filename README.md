@@ -1,4 +1,4 @@
-# ASB
+# CREATING AND DEPLOYING AZURE FUNCTION THAT LISTENS TO AZURE SERVICE BUS QEUEUE
 
 ## Steps to create an Azure Function with ASBQ as trigger
 
