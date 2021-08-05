@@ -1,8 +1,8 @@
 # ASBsubbu
 
-func init LocalFunctionProj --worker-runtime dotnetisolated
-cd LocalFunctionProj
-func new 
+'func init LocalFunctionProj --worker-runtime dotnetisolated
+'cd LocalFunctionProj
+'func new 
 
 choose servicebusqueuetrigger
 and then enter the function name 
