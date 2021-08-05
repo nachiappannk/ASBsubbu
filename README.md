@@ -1,4 +1,6 @@
-# ASBsubbu
+# ASB
+
+## Steps to create an Azure Function with ASBQ as trigger
 
 ```
 func init LocalFunctionProj --worker-runtime dotnetisolated
@@ -7,7 +9,9 @@ func new
 ```
 
 choose servicebusqueuetrigger
-and then enter the function name 
+and then enter the function name<funcctionname>
 
-now the code is generated, include "connectionString" as one of the key in local.settings.json and for value, get from Azure website
-and in <functionname.cs>, change the queue name to the ASB queue that functions listens to. 
+ Create an Azure Serivce bus queue under any resoruce group and note the connectionString 
+  
+now the code is generated, include "connectionString" as one of the key in local.settings.json and for value, enter the noted connectionString.
+In <functionname>.cs, enter the name of the entered queue in place of "myqueue".  
